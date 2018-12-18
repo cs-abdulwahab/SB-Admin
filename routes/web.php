@@ -39,3 +39,7 @@ Route::get('/flot', function () {
 Route::get('/form', function () {
     return view("pages.forms");
 });
+
+Route::get('/userList', function () {
+    return view("pages.userList");
+});
